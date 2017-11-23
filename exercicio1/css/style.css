@@ -1,0 +1,56 @@
+body{
+	font-family: arial;
+	background: #fff;
+}
+#fundo{
+	width: 450px;
+	height: 200px;
+	background: #888;
+	border: outset 5px #ccc;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	top: 50px;
+}
+#grade{
+	width: 405px;
+	height: 80px;
+	background: #fff;
+	position: relative;
+	left: 20px;
+	top: 5px;
+	border:inset 5px #444; 
+}
+#regua{
+	width: 400px;
+	height: 50px;
+	position: absolute;
+	margin-top: 20px;
+	background-image: url("../img/regua.png");
+}
+#ponteiro{
+	width: 20px;
+	height: 40px;
+	position: absolute;
+	background-image: url("../img/ponteiro.png");
+	left: 13px;
+	top: 7px;
+	transition: left 0.10s;
+}
+button{
+	padding: 0  20px;
+	background: linear-gradient(top,#a3a3a3, #222);
+	background: -moz-linear-gradient(top,#a3a3a3, #222);
+	background: -webkit-linear-gradient(top,#a3a3a3, #222);
+	box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+}
+button:hover{
+	cursor: pointer;
+	color: #fff;
+}
+button:active{
+	background: linear-gradient(bottom,#a3a3a3, #222);
+	background: -moz-linear-gradient(bottom,#a3a3a3, #222);
+	background: -webkit-linear-gradient(bottom,#a3a3a3, #222);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
